@@ -839,6 +839,7 @@ end
 end
 
 
+  Options.MenuOpen();
 
 function Update()
 for i, v in pairs(shared.PlayerData) do
@@ -852,7 +853,6 @@ shared.PlayerData[i] = nil;
 end
 end
 
-  Options.MenuOpen();
    
 local CX = Menu:GetInstance'CrosshairX';
 local CY = Menu:GetInstance'CrosshairY';
