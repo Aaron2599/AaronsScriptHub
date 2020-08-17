@@ -934,16 +934,16 @@ end
     
     
 if not Debounce.Menu then
-Debounce.Menu = false;
+Debounce.Menu = true;
 ToggleMenu();
 end
 elseif Debounce.Menu and not Options.MenuOpen.Value then
-Debounce.Menu = true;
+Debounce.Menu = false;
 ToggleMenu();
 end
 end
  
-Options.MenuOpen();
+;
     
 RunService:UnbindFromRenderStep(GetDataName);
 RunService:UnbindFromRenderStep(UpdateName);
