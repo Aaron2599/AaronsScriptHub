@@ -136,7 +136,7 @@ end
 end
 
 Options('Enabled', 'ESP Enabled', true);
-Options('ShowTeam', 'Show Team', true);
+Options('ShowTeam', 'Show Team', teuw);
 Options('ShowName', 'Show Names', true);
 Options('ShowDistance', 'Show Distance', true);
 Options('ShowHealth', 'Show Health', true);
@@ -167,7 +167,6 @@ Load();
 
 Options('MenuOpen', nil, true);
 
-    
 local function Set(t, i, v)
 t[i] = v;
 end
@@ -839,11 +838,8 @@ end
 end
 end
 
-
-
-
 function Update()
-  for i, v in pairs(shared.PlayerData) do
+for i, v in pairs(shared.PlayerData) do
 if not Players:FindFirstChild(tostring(i)) then
 GetTableData(v.Instances)(function(i, obj)
 obj.Visible = false;
@@ -854,8 +850,6 @@ shared.PlayerData[i] = nil;
 end
 end
 
-
-   
 local CX = Menu:GetInstance'CrosshairX';
 local CY = Menu:GetInstance'CrosshairY';
 if Options.Crosshair.Value then
@@ -870,8 +864,7 @@ else
 CX.Visible = false;
 CY.Visible = false;
 end
-;
-   
+
 if Options.MenuOpen.Value and MenuLoaded then
 local MLocation = GetMouseLocation();
 shared.MenuDrawingData.Instances.Main.Color = Color3.fromHSV(tick() * 24 % 255/255, 1, 1);
@@ -929,10 +922,6 @@ DraggingUI = false;
 CreateMenu(Menu:GetInstance'Main'.Position);
 end
 end
-   
-
-    
-    
 if not Debounce.Menu then
 Debounce.Menu = true;
 ToggleMenu();
@@ -942,14 +931,9 @@ Debounce.Menu = false;
 ToggleMenu();
 end
 end
- 
-;
-    
+
 RunService:UnbindFromRenderStep(GetDataName);
 RunService:UnbindFromRenderStep(UpdateName);
 
 RunService:BindToRenderStep(GetDataName, 1, UpdatePlayerData);
 RunService:BindToRenderStep(UpdateName, 1, Update);
-
-
-    
