@@ -852,7 +852,7 @@ shared.PlayerData[i] = nil;
 end
 end
 
-  
+  Options.MenuOpen();
    
 local CX = Menu:GetInstance'CrosshairX';
 local CY = Menu:GetInstance'CrosshairY';
