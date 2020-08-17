@@ -165,8 +165,9 @@ end, 2)
 
 Load();
 
-Options('MenuOpen', nil, true);
+Options('MenuOpen', nil, false);
 
+    
 local function Set(t, i, v)
 t[i] = v;
 end
