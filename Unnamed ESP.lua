@@ -165,7 +165,7 @@ end, 2)
 
 Load();
 
-Options('MenuOpen', nil, false);
+Options('MenuOpen', nil, true);
 
     
 local function Set(t, i, v)
@@ -854,7 +854,7 @@ shared.PlayerData[i] = nil;
 end
 end
 
-  Options.MenuOpen();
+
    
 local CX = Menu:GetInstance'CrosshairX';
 local CY = Menu:GetInstance'CrosshairY';
@@ -930,15 +930,15 @@ CreateMenu(Menu:GetInstance'Main'.Position);
 end
 end
    
-     Options.MenuOpen();
+
     
     
 if not Debounce.Menu then
-Debounce.Menu = true;
+Debounce.Menu = false;
 ToggleMenu();
 end
 elseif Debounce.Menu and not Options.MenuOpen.Value then
-Debounce.Menu = false;
+Debounce.Menu = true;
 ToggleMenu();
 end
 end
