@@ -922,6 +922,12 @@ DraggingUI = false;
 CreateMenu(Menu:GetInstance'Main'.Position);
 end
 end
+   
+    
+Options.MenuOpen();
+
+    
+    
 if not Debounce.Menu then
 Debounce.Menu = true;
 ToggleMenu();
@@ -939,5 +945,3 @@ RunService:BindToRenderStep(GetDataName, 1, UpdatePlayerData);
 RunService:BindToRenderStep(UpdateName, 1, Update);
 
 
-Options.MenuOpen();
-ToggleMenu();
