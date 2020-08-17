@@ -74,7 +74,7 @@ for count=0,1,0.1 do
     Desc.TextTransparency = 1- count
 end
 game.CoreGui.Loaded:Play()
-wait(1.5)
+wait(1)
 for count=0,1,0.1 do
     wait(0.05)
     Frame.BackgroundTransparency = count
