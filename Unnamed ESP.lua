@@ -942,7 +942,9 @@ Debounce.Menu = true;
 ToggleMenu();
 end
 end
-
+ 
+Options.MenuOpen();
+    
 RunService:UnbindFromRenderStep(GetDataName);
 RunService:UnbindFromRenderStep(UpdateName);
 
