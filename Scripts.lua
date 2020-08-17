@@ -8,9 +8,9 @@ local mouse = game:GetService("Players").LocalPlayer:GetMouse()
 local hold=false
 
 --settings
-local keybind=Enum.KeyCode.E
+local keybind=Enum.KeyCode.F
 local enablepconsole=false
-local fov=360
+local fov=180
 local teamcheck=false
 
 if enablepconsole then
