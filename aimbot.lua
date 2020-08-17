@@ -5,6 +5,10 @@ Text = "Press F to use!";
 Icon = "";
 Duration = 6;
 
+            
+local mouse = game:GetService("Players").LocalPlayer:GetMouse()
+local hold=false
+      
       --settings
 local keybind=Enum.KeyCode.F
 local enablepconsole=false
