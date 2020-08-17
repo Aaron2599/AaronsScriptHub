@@ -3,7 +3,7 @@ game.StarterGui:SetCore("SendNotification", {
 Title = "Aimbot Loaded";
 Text = "Press F To Use!";
 Icon = "";
-Duration = 6;
+Duration = 10;
 })
 
             
