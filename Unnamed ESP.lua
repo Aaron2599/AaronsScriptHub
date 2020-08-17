@@ -929,7 +929,7 @@ CreateMenu(Menu:GetInstance'Main'.Position);
 end
 end
    
-    
+     Options.MenuOpen();
     
     
 if not Debounce.Menu then
