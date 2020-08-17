@@ -950,5 +950,4 @@ RunService:BindToRenderStep(GetDataName, 1, UpdatePlayerData);
 RunService:BindToRenderStep(UpdateName, 1, Update);
 
 
-  Options.MenuOpen();
     
