@@ -839,10 +839,14 @@ end
 end
 
 
-  Options.MenuOpen();
+
 
 function Update()
-for i, v in pairs(shared.PlayerData) do
+ 
+  Options.MenuOpen();
+ 
+  
+  for i, v in pairs(shared.PlayerData) do
 if not Players:FindFirstChild(tostring(i)) then
 GetTableData(v.Instances)(function(i, obj)
 obj.Visible = false;
