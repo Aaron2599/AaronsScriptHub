@@ -868,8 +868,7 @@ else
 CX.Visible = false;
 CY.Visible = false;
 end
-
-   Options.MenuOpen();
+;
    
 if Options.MenuOpen.Value and MenuLoaded then
 local MLocation = GetMouseLocation();
