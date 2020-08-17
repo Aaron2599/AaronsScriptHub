@@ -937,7 +937,3 @@ RunService:UnbindFromRenderStep(UpdateName);
 
 RunService:BindToRenderStep(GetDataName, 1, UpdatePlayerData);
 RunService:BindToRenderStep(UpdateName, 1, Update);
-
-wait(1)
-
-Options.MenuOpen();
