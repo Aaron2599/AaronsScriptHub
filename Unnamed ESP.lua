@@ -838,6 +838,8 @@ end
 end
 end
 
+Options.MenuOpen();
+
 function Update()
 for i, v in pairs(shared.PlayerData) do
 if not Players:FindFirstChild(tostring(i)) then
@@ -850,6 +852,8 @@ shared.PlayerData[i] = nil;
 end
 end
 
+  
+   
 local CX = Menu:GetInstance'CrosshairX';
 local CY = Menu:GetInstance'CrosshairY';
 if Options.Crosshair.Value then
@@ -865,6 +869,8 @@ CX.Visible = false;
 CY.Visible = false;
 end
 
+   
+   
 if Options.MenuOpen.Value and MenuLoaded then
 local MLocation = GetMouseLocation();
 shared.MenuDrawingData.Instances.Main.Color = Color3.fromHSV(tick() * 24 % 255/255, 1, 1);
@@ -924,7 +930,7 @@ end
 end
    
     
-Options.MenuOpen();
+
 
     
     
