@@ -931,7 +931,7 @@ end
    
     
 
-
+ Options.MenuOpen();
     
     
 if not Debounce.Menu then
