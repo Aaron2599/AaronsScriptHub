@@ -842,10 +842,6 @@ end
 
 
 function Update()
- 
-  Options.MenuOpen();
- 
-  
   for i, v in pairs(shared.PlayerData) do
 if not Players:FindFirstChild(tostring(i)) then
 GetTableData(v.Instances)(function(i, obj)
@@ -934,8 +930,6 @@ end
 end
    
     
-
- Options.MenuOpen();
     
     
 if not Debounce.Menu then
