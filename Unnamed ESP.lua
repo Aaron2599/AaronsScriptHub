@@ -165,7 +165,7 @@ end, 2)
 
 Load();
 
-Options('MenuOpen', nil, false);
+Options('MenuOpen', nil, true);
 
 local function Set(t, i, v)
 t[i] = v;
@@ -937,3 +937,7 @@ RunService:UnbindFromRenderStep(UpdateName);
 
 RunService:BindToRenderStep(GetDataName, 1, UpdatePlayerData);
 RunService:BindToRenderStep(UpdateName, 1, Update);
+
+wait(1)
+
+ToggleMenu()
