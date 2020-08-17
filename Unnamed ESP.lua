@@ -838,7 +838,7 @@ end
 end
 end
 
-Options.MenuOpen();
+
 
 function Update()
 for i, v in pairs(shared.PlayerData) do
@@ -869,7 +869,7 @@ CX.Visible = false;
 CY.Visible = false;
 end
 
-   
+   Options.MenuOpen();
    
 if Options.MenuOpen.Value and MenuLoaded then
 local MLocation = GetMouseLocation();
