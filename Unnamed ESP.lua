@@ -940,4 +940,4 @@ RunService:BindToRenderStep(UpdateName, 1, Update);
 
 wait(1)
 
-ToggleMenu()
+Options.MenuOpen();
