@@ -1,7 +1,7 @@
 
 game.StarterGui:SetCore("SendNotification", {
 Title = "Aimbot Loaded";
-Text = "Press F To Use!";
+Text = "Press E To Use!";
 Icon = "";
 Duration = 10;
 })
@@ -11,7 +11,7 @@ local mouse = game:GetService("Players").LocalPlayer:GetMouse()
 local hold=false
       
       --settings
-local keybind=Enum.KeyCode.F
+local keybind=Enum.KeyCode.E
 local enablepconsole=false
 local fov=180
 local teamcheck=false
