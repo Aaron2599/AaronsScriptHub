@@ -5,6 +5,11 @@ local infiniteyield = 1
 
 
 -- Game Specific Hacks
+if game.PlaceId == 1600503  then -- ApocolapseRising Script
+loadstring(game:HttpGet("https://pastebin.com/RZat5f7g"))()
+
+end
+
 if game.PlaceId == 850917308  then -- lightsaber battles
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Aaron2599/AaronsScriptHub/master/Starwarslightsabersbattlesgui.lua"))()
 end
@@ -24,7 +29,7 @@ end
   
   
 
-
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Aaron2599/AaronsScriptHub/master/Spy_Chat.lua'))()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Aaron2599/AaronsScriptHub/master/LightSpeedcyb.lua"))()
 
@@ -42,24 +47,6 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/Aaron2599/AaronsScrip
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Aaron2599/AaronsScriptHub/master/Spy_Chat.lua'))()
 
 
 
