@@ -12,7 +12,7 @@ local infiniteyield = 1
 
 -- Game Specific Hacks
 if game.PlaceId == 850917308  then -- lightsaber battles
-loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Aaron2599/AaronsScriptHub/master/Starwars%20lightsabers%20battles.lua"))()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Aaron2599/AaronsScriptHub/master/Starwarslightsabersbattlesgui.lua"))()
 end
 
 if game.PlaceId == 5323592216  then -- Site 67
