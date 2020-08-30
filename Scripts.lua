@@ -6,11 +6,11 @@ local infiniteyield = 1
 
 -- Game Specific Hacks
 if game.PlaceId == 850917308  then -- lightsaber battles
-loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Aaron2599/AaronsScriptHub/master/Starwarslightsabersbattlesgui.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Aaron2599/AaronsScriptHub/master/Starwarslightsabersbattlesgui.lua"))()
 end
 
 if game.PlaceId == 5323592216  then -- Site 67
-loadstring(game:HttpGetAsync("https://gist.githubusercontent.com/GuzZyWilly/622836d5371a580b5bbf9e119f9de150/raw/0be92f374888ccc19cf47503b7b2504f72a54262/gistfile1.txt"))()
+loadstring(game:HttpGet("https://gist.githubusercontent.com/GuzZyWilly/622836d5371a580b5bbf9e119f9de150/raw/0be92f374888ccc19cf47503b7b2504f72a54262/gistfile1.txt"))()
 
 
 end
