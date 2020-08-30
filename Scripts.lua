@@ -1,12 +1,6 @@
-
 local esp = 1 
 local aim = 1 
 local infiniteyield = 1
-
-
-
-
-
 
 
 
@@ -48,16 +42,6 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/Aaron2599/AaronsScrip
   if infiniteyield == 1 then 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end
-
-
-
-
-
-
-
-
-
-
 
 
 
