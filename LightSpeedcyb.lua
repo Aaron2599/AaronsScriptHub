@@ -69,9 +69,9 @@ Frame.Draggable = true
 Frame.Active = true
 for count=0,1,0.1 do
     wait(0.05)
-    Frame.BackgroundTransparency = 1 - count
-    Title.TextTransparency = 1- count
-    Desc.TextTransparency = 1- count
+    Frame.BackgroundTransparency = .7 - count
+    Title.TextTransparency = .7- count
+    Desc.TextTransparency = .7- count
 end
 game.CoreGui.Loaded:Play()
 wait(1)
