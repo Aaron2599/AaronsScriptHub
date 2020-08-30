@@ -2,12 +2,9 @@ local esp = 1
 local aim = 1 
 local infiniteyield = 1
 
-
-
 -- Game Specific Hacks
-if game.PlaceId == 1600503  then -- ApocolapseRising Script
-loadstring(game:HttpGet("https://pastebin.com/RZat5f7g"))()
-
+if game.PlaceId == 237590761  then -- ApocolapseRising Script
+loadstring(game:HttpGet("https://pastebin.com/raw/RZat5f7g"))()
 end
 
 if game.PlaceId == 850917308  then -- lightsaber battles
@@ -46,11 +43,4 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/Aaron2599/AaronsScrip
   if infiniteyield == 1 then 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end
-
-
-
-
-
-
-
 
