@@ -4,7 +4,7 @@ local infiniteyield = 1
 
 -- Game Specific Hacks
 if game.PlaceId == 237590761  then -- ApocolapseRising Script
-loadstring(game:HttpGet("https://pastebin.com/raw/RZat5f7g"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Aaron2599/AaronsScriptHub/master/RisingGUI"))()
 end
 
 if game.PlaceId == 850917308  then -- lightsaber battles
