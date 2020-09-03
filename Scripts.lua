@@ -4,12 +4,6 @@ local infiniteyield = 1
 
 -- Game Specific Hacks
 if game.PlaceId == 237590761  then -- ApocolapseRising Script
-
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Aaron2599/AaronsScriptHub/master/aimbot.lua'))()
-loadstring(game:HttpGet('https://ic3w0lf.xyz/rblx/protoesp.lua'))()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Aaron2599/AaronsScriptHub/master/Spy_Chat.lua'))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Aaron2599/AaronsScriptHub/master/LightSpeedcyb.lua"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Aaron2599/AaronsScriptHub/master/RisingGUI"))()
 end
 
