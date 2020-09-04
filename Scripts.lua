@@ -1,6 +1,6 @@
-local esp = 1 
-local aim = 1 
-local infiniteyield = 1
+ esp = 1 
+ aim = 1 
+ infiniteyield = 1
 
 -- Game Specific Hack
 if game.PlaceId == 850917308  then -- lightsaber battles
