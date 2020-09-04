@@ -1,5 +1,5 @@
 game.StarterGui:SetCore("SendNotification", {
-Title = "BloxBurg;
+Title = "BloxBurg";
 Text = "You have been given all gamepasses";
 Icon = "";
 Duration = 20;
