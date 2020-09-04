@@ -1,4 +1,6 @@
- esp = 1 
+ -- loadstring(game:HttpGet("https://raw.githubusercontent.com/Aaron2599/AaronsScriptHub/master/Scripts.lua"))()  
+
+esp = 1 
  aim = 1 
  infiniteyield = 1
 
