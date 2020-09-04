@@ -10,6 +10,7 @@ if game.PlaceId == 185655149 then -- BloxBurg
  loadstring(game:HttpGet("https://raw.githubusercontent.com/Aaron2599/AaronsScriptHub/master/Bloxburg_Max_stats_and_freegampass"))()
 aim = 0 
 infiniteyield = 0
+icecmd = 0
 end
 
 if game.PlaceId == 850917308  then -- lightsaber battles
