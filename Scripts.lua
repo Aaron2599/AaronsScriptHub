@@ -42,7 +42,7 @@ end
 
 -- game end specific hacks 
 if game.PlaceId == 237590761 or 2375906557 or 290815963 then -- ApocolapseRising Script
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Aaron2599/AaronsScriptHub/master/RisingGUI"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Aaron2599/AaronsScriptHub/master/RisingGUI.lua"))()
 end
 
 
