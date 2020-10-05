@@ -1,6 +1,6 @@
  -- loadstring(game:HttpGet("https://raw.githubusercontent.com/Aaron2599/AaronsScriptHub/master/Scripts.lua"))()  
 
-icecmd = 1 
+
 esp = 1 
 aim = 1 
 infiniteyield = 1
@@ -48,9 +48,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/Aaron2599/AaronsScrip
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end
 
-if icecmd == 1 then 
- loadstring(game:HttpGet('https://raw.githubusercontent.com/Aaron2599/AaronsScriptHub/master/CLAIM_ADMIN_AND_KARAMBIT.lua'))()
- end 
+
 
 -- game end specific hacks 
 if game.PlaceId == 237590761 or 2375906557 or 290815963 then -- ApocolapseRising Script
