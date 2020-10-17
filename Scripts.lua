@@ -27,10 +27,7 @@ loadstring(game:HttpGet("https://www.pastebin.com/raw/PuaaGKsT"))()
  aim =  0
 end
    
- -- game end specific hacks 
-if game.PlaceId == 237590761 or 2375906557 or 290815963 then -- ApocolapseRising Script
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Aaron2599/AaronsScriptHub/master/RisingGUI.lua"))()
-end
+
   
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Aaron2599/AaronsScriptHub/master/Spy_Chat.lua'))()
